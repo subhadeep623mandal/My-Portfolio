@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subhadeep Mandal | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Subhadeep</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content glass">
+            <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-img" />
+            <h1>Hi, I'm <span>Subhadeep Mandal</span></h1>
+            <p class="typing-text">Web Developer | CSE Student | Tech Enthusiast</p>
+
+            <div class="cta-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="assets/Subhadeep_Resume.pdf" download class="btn outline">Download Resume</a>
+            </div>
+
+            <div class="socials">
+                <a href="https://github.com/subhadeep623mandal" target="_blank">
+                    <img src="icons/github.svg" alt="GitHub" title="GitHub" />
+                </a>
+                <a href="https://www.linkedin.com/in/subhadeep-mandal-30561823b" target="_blank">
+                    <img src="icons/linkedin.svg" alt="LinkedIn" title="LinkedIn" />
+                </a>
+            </div>
+
+            <a href="#about" class="scroll-down">&#8595;</a>
+        </div>
+    </section>
+
+
+    <section id="about" class="section glass about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="assets/images/profile.jpg" alt="Subhadeep Mandal" class="about-img" />
+            <div class="about-text">
+                <p>
+                    I'm a <strong>3rd-year B.Tech CSE student</strong> at the <strong>University of Engineering and
+                        Management (UEM), Kolkata</strong>.
+                    I have a deep interest in <strong>web development, full-stack design</strong>, and
+                    <strong>AI-powered solutions</strong>.
+                </p>
+                <p>
+                    I developed projects like a <strong>women safety platform</strong>,
+                    <strong>medical store inventory system</strong>, and <strong>YOLO-based vehicle counter</strong>.
+                </p>
+                <p>
+                    I'm also an active member of <strong>GDG Kolkata</strong> and <strong>ML Kolkata</strong>,
+                    passionate about community-driven learning.
+                    I believe in learning by doing and love building tech that solves real-world problems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="education" class="section glass">
+        <h2>Education</h2>
+        <div class="edu-item">
+            <h3>B.Tech in Computer Science & Engineering</h3>
+            <p class="edu-institute">University of Engineering and Management, Kolkata</p>
+            <p class="edu-details">2023 – 2027 | YGPA: 8.7</p>
+        </div>
+        <div class="edu-item">
+            <h3>Higher Secondary (XII)</h3>
+            <p class="edu-institute">Birbhum Zilla School</p>
+            <p class="edu-details">2022 | Percentage: 95.2%</p>
+        </div>
+        <div class="edu-item">
+            <h3>Secondary (X)</h3>
+            <p class="edu-institute">Birbhum Zilla School</p>
+            <p class="edu-details">2022 | Percentage: 90.7%</p>
+        </div>
+    </section>
+
+
+    <section id="skills" class="section glass">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <img src="icons/html.svg" alt="HTML" title="HTML" />
+            <img src="icons/css.svg" alt="CSS" title="CSS" />
+            <img src="icons/javascript.svg" alt="JavaScript" title="JavaScript" />
+            <img src="icons/react.svg" alt="React.js" title="React.js" />
+            <img src="icons/php.svg" alt="PHP" title="PHP" />
+            <img src="icons/mysql.svg" alt="MySQL" title="MySQL" />
+            <img src="icons/python.svg" alt="Python" title="Python" />
+            <img src="icons/java.svg" alt="Java" title="Java" />
+            <img src="icons/c.svg" alt="C" title="C" />
+            <img src="icons/figma.svg" alt="Figma" title="Figma" />
+        </div>
+    </section>
+
+
+    <section id="projects" class="section glass">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Medical Store Management</h3>
+                <p>Web-based inventory and sales system built with React.js, PHP, and MySQL. Features include secure
+                    login, medicine search, filtering, and analytics.</p>
+            </div>
+            <div class="project-card">
+                <h3>SHEcurity</h3>
+                <p>Women's safety platform with SOS alerts, real-time tracking, menstrual and pregnancy tracking. Built
+                    for safety and health monitoring.</p>
+            </div>
+            <div class="project-card">
+                <h3>Vehicle Parking Counter</h3>
+                <p>YOLOv8 + OpenCV based real-time vehicle detection and counting system for parking lots. Achieved over
+                    90% accuracy.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section glass">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Subhadeep Mandal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
